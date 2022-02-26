@@ -1,0 +1,17 @@
+div{direction: rtl;}
+    .menu{color: black;}
+    .sub{display: none;}
+    .option{display: none;}
+    ul.menu li{background-color: rgb(196, 189, 189);color: black;
+        display: inline-block;list-style: none;text-align: center;
+        height: 80px;width: 24%;border: 1px solid black;box-sizing: border-box;padding-top: 12px;}
+    ul.menu li a{text-decoration: none;font-size: 40px;}
+    ul.menu li:hover{background-color: rgb(235, 235, 189);}
+    ul.menu li:hover ul.sub{display: block;position: absolute;float: right;}
+    ul.menu li:hover ul.sub li{background-color: rgb(176, 242, 247);color: black;height:50px;width: 150%;}
+    ul.menu li:hover ul.sub li a{font-size: 20px;text-align: center;}
+    ul.menu li:hover ul.sub li:hover{background-color: blueviolet;}
+    ul.menu li:hover ul.sub li:hover ul.option{display: block;position: absolute;float: right;}
+    ul.menu li:hover ul.sub li:hover ul.option li {background-color: rgb(147, 243, 147);height:50px;width: 150%;}
+    ul.menu li:hover ul.sub li:hover ul.option li a{color: white;font-size: 10px;}
+  
